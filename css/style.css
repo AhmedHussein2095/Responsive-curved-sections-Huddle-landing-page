@@ -1,0 +1,772 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    position: relative;
+    font: 400 14px Poppins, sans-serif;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+/*  header styling */
+
+
+/* div 1 */
+header div:first-of-type {
+    overflow: hidden;
+    padding-top: 15px;
+    margin-bottom: 38px;
+}
+
+header div:first-of-type img{
+    display: inline-block;
+    width: 75px;
+    height: 16px;
+    margin-left: 12px;
+}
+
+header div:first-of-type a{
+    display: block;
+    border-radius: 20px;
+    border: 1px solid hsl(322, 100%, 66%);
+    background-color: #fff;
+    font: 400 12px Poppins, sans-serif;
+    color: hsl(322, 100%, 66%);
+    padding: 4px 18px;
+    float: right;
+    margin-right: 10px;
+
+}
+
+header div:first-of-type a:hover{
+    transition: all .25s ease-in-out;
+    background-color: hsl(193, 100%, 96%);
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    color:hsl(193, 100%, 96%);
+    border: 1px solid hsl(322, 100%, 66%);
+    
+}
+
+/* div 2 */
+
+header div:nth-of-type(2) {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header div:nth-of-type(2) h1 {
+    white-space: nowrap;
+    font: bold 22px Poppins, sans-serif;
+}
+header div:nth-of-type(2) h2 {
+    white-space: nowrap;
+    font: bold 22px Poppins, sans-serif;
+    margin-bottom: 15px;
+}
+
+header div:nth-of-type(2) p {
+    margin: 0 auto;
+    width: 80%;
+    line-height: 1.25em;
+    margin-bottom: 30px;
+
+}
+
+.my-button {
+    background-color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    color: white;
+    font-size: .8em;
+    border-radius: 50px;
+    padding: 9px 35px;
+}
+
+.my-button:hover{
+    transition: all .3s ease-in-out;
+    background-color: hsl(193, 100%, 96%);
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    
+}
+
+/* div 3 */
+
+header div:last-of-type {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+header div:last-of-type img {
+    width: 80%;
+    height: 180px;
+}
+
+
+/*  .statics styling */
+.statics {
+    margin: 140px 0 0   ;
+}
+
+.statics .xcontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.statics .mydiv {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.statics .mydiv:first-of-type {
+    margin-bottom: 100px;
+}
+
+
+.statics .mydiv img {
+    position: relative;
+    top: 10px;
+    right: 70px;
+    width: 20px;
+    height: 20px;
+}
+.statics .mydiv p:first-of-type {
+    font: 900 60px Poppins, sans-serif;
+}
+.statics .mydiv p:last-of-type {
+    color: rgb(0, 0, 0, .5);
+}
+
+
+
+/* .benefit styling  */
+
+section.benefit:first-of-type{
+    margin-top: 90px ;
+}
+section.benefit:last-of-type{
+    margin-bottom: 60px;
+}
+section.benefit{
+    background-color: #fff;
+    margin: 140px 0;
+}
+.benefit .container{
+    width: 85%;
+    /* border-radius: 30px; */
+    /* box-shadow: -3px -3px 12px #ccc, 3px 3px 12px #ccc; */
+    text-align: center;
+    margin: 0 auto;
+    padding: 9%;
+}
+
+ .container div:first-of-type {
+    margin-bottom: 48px;
+}
+
+.container div:first-of-type img {
+    width: 100%;
+    height: 200px;
+}
+
+
+
+.container div:last-of-type  h2{
+    margin-bottom: 20px;
+    font: bold 22px Poppins, sans-serif;
+
+}
+
+.container div:last-of-type  p{
+    margin: auto;
+    width: 100%;
+    line-height: 1.25em;
+
+
+}
+
+
+/*  last  styling  */
+
+section.last  {
+    background: url('../images/bg-footer-top-mobile.svg') no-repeat bottom;
+    background-size: 100% ;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 240px;
+}
+
+
+
+.last  h2{
+    font: bold 16px Poppins, sans-serif;
+    white-space: nowrap;
+    padding: 40px 0 25px 0;
+    
+}
+
+.last  .my-button {
+    z-index: 10;
+    white-space: nowrap;
+    margin-bottom: 34px;
+
+}
+
+/*  footer styling */
+
+footer{
+    background: hsl(192, 100%, 9%);
+    color: #ccc;
+    padding: 20px 0;
+}
+
+footer .xxcontainer {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* first div*/
+footer .xxcontainer h2 {
+    margin: 10px 0;
+
+}
+
+footer .xxcontainer div:first-of-type p {
+    margin-bottom: 20px;
+}
+
+footer .xxcontainer div:first-of-type input {
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 14px;
+    margin-right: 20px;
+    padding: 5px 20px;
+}
+
+footer  button {
+    display: block;
+    margin-left: auto;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    background-color: hsl(322, 100%, 66%);
+}
+footer  button a{
+    padding: 10px 30px;
+    color: #fff;
+}
+
+footer  button a:hover{
+    transition: all .25s ease-in-out;
+    border-radius: 5px;
+    background-color: #fff;
+    color:hsl(322, 100%, 66%);
+}
+
+/* second div */
+
+footer .xxcontainer > div:last-of-type{
+    margin-top: 80px;
+}
+
+footer .logo {
+    width: 165px;
+}
+
+footer .lorem {
+    margin: 10px 0 40px 0;
+}
+
+footer .phone, .email {
+    width: 15px;
+}
+
+footer span{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+footer span:first-of-type{
+    font-size: 12px;
+}
+footer span:last-of-type{
+    font-size: 10px;
+}
+
+footer ul {
+    margin-top: 16px;
+    list-style: none;
+    padding: 0;
+}
+footer ul li{
+    display: inline-block;
+    padding-right: 12px;
+}
+
+footer ul li a{
+    font-size: 25px;
+    color: #fff;
+}
+
+footer .fb:hover{
+    transition: all .3s ease-in-out;
+    transform: scale(1.2);
+    color: #3b5998;
+}
+
+footer .insta:hover{
+    transition: all .3s ease-in-out;
+    color: #dd2a7b;
+}
+
+footer .tw:hover{
+    transition: all .3s ease-in-out;
+    color: #00acee;
+}
+
+
+
+@media (min-width:420px) and (max-width:767px){
+
+    /*  header */
+
+    header div:first-of-type {
+        padding-top: 25px;
+    }
+
+    header div:first-of-type img{
+        width: 110px;
+        height: 26px;
+        margin-left: 28px;
+    }
+
+    header div:first-of-type a{
+        padding: 7px 30px;
+        margin-right: 28px;
+    }
+
+    header div:nth-of-type(2) h1,
+    header div:nth-of-type(2) h2 {
+        display: inline-block;
+    }
+
+    header div:nth-of-type(2) p {
+        margin-bottom: 35px;  
+        width: 60%;
+    }
+
+    header div:last-of-type img {
+        width: 80%;
+        height: 340px;
+    }
+
+
+    /* statics styling */
+
+  
+    .statics .mydiv p:first-of-type {
+        font: 900 60px Poppins, sans-serif;
+    }
+
+    .statics .mydiv img {
+        right: 70px;
+    }
+
+
+
+    /* .benefit  styling  */
+
+    
+    .container div:first-of-type img {
+        height: 300px;
+    }
+    
+    .container div:last-of-type  h2{
+        font: bold 26px Poppins, sans-serif;
+    }
+
+
+    /*  last div styling  */
+
+   
+    section.last .container {
+        text-align: center;
+        margin: auto;
+        width: 65%;
+    }
+
+    .last .container h2{
+        font: bold 16px Poppins, sans-serif;
+    
+    }
+
+    /*  footer styling */
+    footer .xxcontainer div:first-of-type input {
+        width: 70%;
+    }
+    footer  button {
+        display: inline-block;
+    }
+
+    footer p {
+        width: 90%;
+    }
+
+    footer .lorem {
+        margin: 10px 0 40px 0;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:992px){
+
+    /* header */
+
+    header div:first-of-type {
+        padding-top: 38px;
+    }
+
+    header div:first-of-type img{
+        width: 130px;
+        height: 26px;
+        margin-left: 38px;
+    }
+
+    header div:first-of-type a{
+        padding: 11px 50px;
+        margin-right: 38px;
+    }
+
+    header div:nth-of-type(2) h1 {
+        font: bold 26px Poppins, sans-serif;
+        display: inline-block;
+    }
+
+    header div:nth-of-type(2) h2 {
+        font: bold 26px Poppins, sans-serif;
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+
+    header div:nth-of-type(2) p {
+        margin-bottom: 45px;
+        width: 50%;
+
+    }
+
+    header div:last-of-type img {
+        width: 70%;
+        height: 360px;
+    }
+
+    /*  .statics styling */
+
+    .statics .xcontainer{
+        display: flex;
+        flex-direction: row;
+    }
+   
+
+
+    /*  .benefit styling */
+
+    section.benefit{
+        background-color: #fff;
+        margin: 30px 0 20px 0 ;
+    }
+
+    .benefit .container{
+        overflow: hidden;
+        padding:  0 ;
+        width: 90%;
+    }
+    
+    .container div:first-of-type {
+        float: right;
+        width: 40%;
+    }
+    
+    .container div:first-of-type img {
+        margin-top: 60px;
+        padding-right: 30px;
+        width: 100%;
+        height: 250px;
+    }
+    
+
+    .verse .container div:first-of-type {
+        float: left;
+      
+    }
+    .verse .container div:last-of-type{
+        float: right;
+    }
+    .verse .container div:first-of-type img {
+        padding-left: 30px;
+    }
+
+
+    .container div:last-of-type{
+        float: left;
+        width: 60%;
+        text-align: left;
+        padding: 120px 0 0 60px;
+    }
+    
+    .container div:last-of-type  h2{
+        margin-bottom: 20px;
+        font: bold 22px Poppins, sans-serif;
+    
+    }
+    
+    .container div:last-of-type  p{
+        width:85%;
+        line-height: 1.25em;
+        margin: 0;
+
+    }
+
+    
+    /*  last div styling  */
+    section.last .container {
+        text-align: center;
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .last .container h2{
+        font: bold 22px Poppins, sans-serif;
+    
+    }
+
+    /*  footer styling */
+
+    .xxcontainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .xxcontainer > div:first-of-type{
+        order: 2;
+    }
+
+    footer  button {
+        display: inline-block;
+    }
+    footer .xxcontainer div:first-of-type input {
+        width: 70%;
+    }
+
+
+    footer .xxcontainer > div:first-of-type{
+        order: 2;
+        padding-left: 150px;
+    }
+    footer .xxcontainer > div:last-of-type{
+        order: 1;
+        margin-top: 0;
+    }
+
+
+    footer p {
+        width: 100%;
+    }
+   
+    
+}
+
+
+@media (min-width:993px){
+
+    /* header */
+    header div:first-of-type {
+        padding-top: 38px;
+    }
+
+    header div:first-of-type img{
+        width: 145px;
+        height: 26px;
+        margin-left: 38px;
+    }
+
+    header div:first-of-type a{
+        padding: 11px 50px;
+        margin-right: 38px;
+    }
+
+    header div:nth-of-type(2) h1 {
+        display: inline-block;
+        font: bold 26px Poppins, sans-serif;
+    }
+    
+    header div:nth-of-type(2) h2 {
+        display: inline-block;
+        font: bold 26px Poppins, sans-serif;
+        margin-bottom: 25px;
+    }
+
+    header div:nth-of-type(2) p {
+        margin-bottom: 45px;
+        width: 40%;
+    }
+
+    header div:last-of-type img {
+        width: 70%;
+        height: 400px;
+    }
+
+
+    /*  .statics styling */
+
+    .statics .xcontainer{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .statics .mydiv p:first-of-type {
+        font: 900 80px Poppins, sans-serif;
+    }
+
+    .statics .mydiv:last-of-type img {
+        right: 95px;
+    }
+
+    /*  .benefit styling */
+
+    section.benefit{
+        background-color: #fff;
+        margin: 30px 0 20px 0 ;
+    }
+
+    .benefit .container{
+        overflow: hidden;
+        padding:  0 ;
+        width: 90%;
+    }
+    
+    .container div:first-of-type {
+        float: right;
+        width: 40%;
+    }
+
+    .verse .container div:first-of-type {
+        float: left;
+      
+    }
+    .verse .container div:last-of-type{
+        float: right;
+    }
+    .verse .container div:first-of-type img {
+        padding-left: 30px;
+    }
+    
+    .container div:first-of-type img {
+        margin-top: 60px;
+        padding-left: 30px;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .container div:last-of-type{
+        float: left;
+        width: 60%;
+        text-align: left;
+        padding: 120px 0 0 60px;
+    }
+    
+    .container div:last-of-type  h2{
+        margin-bottom: 20px;
+        font: bold 26px Poppins, sans-serif;
+    
+    }
+    
+    .container div:last-of-type  p{
+        width:95%;
+        line-height: 1.25em;
+        margin: 0;
+
+    }
+
+    
+    /*  last div styling  */
+
+    section.last{
+        text-align: right;
+        background: url('../images/bg-footer-top-mobile.svg') no-repeat bottom;
+        background-size: 100% 120px;
+    }
+
+    .last .container {
+        text-align: center;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .last .container h2{
+        font: bold 24px Poppins, sans-serif;
+    }
+
+    /*  footer styling */
+      /*  footer styling */
+    footer{
+        padding: 0 0 40px 0;
+    }
+
+      .xxcontainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .xxcontainer > div:first-of-type{
+        order: 2;
+    }
+
+    footer  button {
+        display: inline-block;
+    }
+    footer .xxcontainer div:first-of-type input {
+        width: 70%;
+    }
+
+
+    footer .xxcontainer > div:first-of-type{
+        order: 2;
+        padding-left: 150px;
+    }
+    footer .xxcontainer > div:last-of-type{
+        order: 1;
+        margin-top: 0;
+    }
+
+
+    footer p {
+        width: 100%;
+    }
+   
+   
+}
+
+
+
+
